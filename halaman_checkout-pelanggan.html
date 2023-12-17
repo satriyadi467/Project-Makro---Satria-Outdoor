@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/halaman_checkout-pelanggan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Checkout</title>
+</head>
+<body>
+    <section id="navbar">
+        <div class="navbar">
+          <nav>
+            <a href="#" class="logo"><img src="logo1.png" alt="#"></a>
+            <ul>
+              <li><a href="halaman_utama-pelanggan.html">Home</a></li>
+              <li><a href="halaman_profil-pelanggan.html">Profil</a></li>
+              <li><a href="halaman_produk-pelanggan.html">Produk</a></li>
+              <li><a href="halaman_videomodul-pelanggan.html">Video/Modul</a></li>
+              <li><a href="halaman_pengaduan-pelanggan.html">Pengaduan</a></li>
+            </ul>
+          </nav>
+        </div>
+    </section>
+
+<div class="kotak-checkout">
+  <div class="input-alamat">
+    <span class="lokasi"><ion-icon name="location"></ion-icon>    Alamat Pengirim</span>
+    <input type="text"
+    placeholder="masukkan alamat">
+  </div>
+<div class="checkbox">
+    <label><input type="checkbox">Kirim Sebagai Dropshipper</label>
+</div>
+
+
+  <div class="kotak-isi-1">
+    <a>Produk Yang Disewa</a>
+    <div class="kotak-isi-2">
+      <a class="tenda"><img src="tenda.jpeg" alt="#"></a>
+      <div class="kotak-isi-3">
+      <p>Detail Harga dan Jumlah Produk :</p>
+      <p>Harga Sewa     : Rp. 250.000</p> 
+      <p>Biaya Jasa        : Rp. 25.000</p>
+      <p>Biaya asuransi : Rp. 25.000</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="metode-pembayaran">
+    <p>Metode Pembayaran</p>
+    <input type="text"
+    placeholder="Pilih Metode Pembayaran">
+
+    <div class="total">
+        <a>Total Biaya = Rp.300.000</a>
+    </div>
+  </div>
+
+    <button type="submit" onclick="pindahHalaman('CHECKOUT')">Buat Pesanan</button>
+
+    <script>
+      function pindahHalaman(tujuan) {
+          if (tujuan === 'CHECKOUT') {
+              window.location.href = 'halaman_produk-pelanggan.html';
+          }
+      }
+    </script>
+
+      <script src="script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>

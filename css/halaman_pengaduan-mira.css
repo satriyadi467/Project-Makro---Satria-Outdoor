@@ -1,0 +1,112 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFBA7E;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FF7A00;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar
+{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+.judul
+{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-judul
+{
+    width: 1000px;
+    height: 250px;
+    background-color: #FF7A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box-judul p
+{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.fitur
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-fitur
+{
+    width: 1000px;
+    height: 250px;
+    background-color: #FFBA7E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fitur-1, .fitur-2, .fitur-3
+{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF7A00;
+    cursor: pointer;
+}
+
+.fitur-1 p, .fitur-2 p, .fitur-3 p
+{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}

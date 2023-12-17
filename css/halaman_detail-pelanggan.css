@@ -1,0 +1,284 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFBA7E;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FF7A00;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar
+{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.detail
+{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box-produk
+{
+    width: 1000px;
+    height: 450px;
+    background-color: #FF7A00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1
+{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.box-2
+{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: #FF7A00;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-2 p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1
+{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.title
+{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.value
+{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2
+{
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.box2 p
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box3
+{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.box4
+{
+    width: 400px;
+    height: 100px;
+    background-color: #FF7A00;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.keranjang
+{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keranjang i
+{
+    margin-right: 5px;
+}
+
+.sewa
+{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spek
+
+{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-spek
+{
+    margin-top: 40px;
+    width: 1000px;
+    height: 250px;
+    background-color: #FF7A00;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-spek p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.spek-1
+{
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.spek-2
+{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.desc
+
+{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-desc
+{
+    width: 1000px;
+    height: 250px;
+    background-color: #FF7A00;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-desc p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.desc-1
+{
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.desc-2
+{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/halaman_keranjang-pelanggan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Keranjang Belanja</title>
+</head>
+<body>
+    <section id="navbar">
+        <div class="navbar">
+          <nav>
+            <a href="#" class="logo"><img src="logo1.png" alt="#"></a>
+            <ul>
+              <li><a href="halaman_utama-pelanggan.html">Home</a></li>
+              <li><a href="halaman_profil-pelanggan.html">Profil</a></li>
+              <li><a href="halaman_produk-pelanggan.html">Produk</a></li>
+              <li><a href="halaman_videomodul-pelanggan.html">Video/Modul</a></li>
+              <li><a href="halaman_pengaduan-pelanggan.html">Pengaduan</a></li>
+            </ul>
+          </nav>
+        </div>
+    </section>
+
+<div class="kotak-checkout">
+  <div class="kotak-judul">
+    <p>Tenda Kapasitas 2 orang</p>
+    <p>Durasi Sewa</p>
+    <p>Harga Sewa Per-Hari</p>
+    <p>Total Harga</p>
+  </div>
+
+  <div class="kotak-isi">
+    <a class="tenda"><img src="tenda.jpeg" alt="#"></a>
+    <p>5 Hari</p>
+    <p>Rp.25.000</p>
+    <p>Rp.125.000</p>
+  </div>
+
+  <div class="kotak-pesan">
+    <p>Pilih Semua (1)</p>
+    <p>Rp.125.000</p>
+    <button type="submit" onclick="pindahHalaman('CHECKOUT')">C H E C K O U T</button>
+  </div>
+
+  <script>
+    function pindahHalaman(tujuan) {
+        if (tujuan === 'CHECKOUT') {
+            window.location.href = 'halaman_checkout-pelanggan.html';
+        }
+    }
+  </script>
+
+      <script src="script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>

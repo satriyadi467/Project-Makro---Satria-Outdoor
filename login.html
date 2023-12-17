@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satria Outdoor</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="logo-kiri">
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="form-box login">
+            <h1>SIGN IN</h1>
+            <form action="#">
+                <div class="input-box">
+                    
+
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text"
+                    placeholder="masukkan username">
+                    
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="Password"
+                    placeholder="masukkan password">
+                    
+                </div>
+                
+                <br>
+                
+                
+                <div class="ingat-akun-saya">
+                    <label> <input type="checkbox"> Ingat Saya </label>
+                    <br>
+                    <br>
+                </div>
+
+                <button type="button" class="btn" onclick="pindahHalaman('MITRA')">MITRA</button>
+                <button type="button" class="btn" onclick="pindahHalaman('PELANGGAN')">PELANGGAN</button>
+
+                <script>
+                    function pindahHalaman(tujuan) {
+                        if (tujuan === 'MITRA') {
+                            window.location.href = 'halaman_utama-mitra.html';
+                        } else if (tujuan === 'PELANGGAN') {
+                            window.location.href = 'halaman_utama-pelanggan.html';
+                        }
+                    }
+                </script>
+
+                <div class="login-register">
+                    <p>Belum Memiliki Akun?   <a href="register.html" class="register-link">Daftar Sekarang!</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+
+</body>
+</html>

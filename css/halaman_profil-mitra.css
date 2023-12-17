@@ -1,0 +1,201 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFBA7E;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FF7A00;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.judul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul p
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#navbar
+{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.profil
+{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-profil
+{
+    width: 1000px;
+    height: 250px;
+    background-color: #FF7A00;
+    display: flex;
+    justify-content: left;
+}
+
+.user
+{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-box
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user i
+{
+    font-size: 50px;
+}
+
+.biodata
+{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.biodata P
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.edit
+{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.edit p
+{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.edit i
+{
+    font-size: 25px;
+}
+
+#fitur
+{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitur
+{
+    width: 1000px;
+    height: 300px;
+    background-color: #FF7A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-fitur
+{
+    width: 500px;
+    height: 300px;
+    background-color: #FFBA7E;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+    align-items: space-between;
+    padding-top: 30px;
+}
+
+.fitur-1, .fitur-2, .fitur-3, .fitur-4, .fitur-5, .fitur-6, .fitur-7, .fitur-8
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box-desc
+{
+    width: 500px;
+    height: 300px;
+    background-color: #FF7A00;
+    display: flex;
+    justify-content: center;
+}
+
+.box-desc p
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}

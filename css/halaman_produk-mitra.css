@@ -1,0 +1,123 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFBA7E;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FF7A00;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar
+{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+}
+
+.box
+{
+    height: 80vh;
+    background-color: #FFBA7E;
+    padding: 2% 5% 10%;
+}
+
+.box-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.box-item-1, .box-item-2, .box-item-3, .box-item-4, .box-item-5, .box-item-6
+{
+    height: 280px;
+    width: 200px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+.box-item-1-top, .box-item-2-top, .box-item-3-top, .box-item-4-top, .box-item-5-top
+{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+.box-item-6-top
+{
+    width: 200px;
+    height: 205px;
+}
+
+.box-item-6-top i
+{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.box-item-1-bottom, .box-item-2-bottom, .box-item-3-bottom, .box-item-4-bottom, .box-item-5-bottom, .box-item-6-bottom
+{
+    width: 200px;
+    height: 75px;
+    background-color: #FF7A00;
+    padding-top: 2px;
+}
+
+.box-item-1-bottom p:nth-child(1), .box-item-2-bottom p:nth-child(1), .box-item-3-bottom p:nth-child(1), .box-item-4-bottom p:nth-child(1), .box-item-5-bottom p:nth-child(1)
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.box-item-6-bottom p:nth-child(1)
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-item-1-bottom p:nth-child(2), .box-item-2-bottom p:nth-child(2), .box-item-3-bottom p:nth-child(2), .box-item-4-bottom p:nth-child(2), .box-item-5-bottom p:nth-child(2)
+{
+    text-align: center;
+    font-weight: bold;
+}
